@@ -6,7 +6,7 @@
 
 body{
     background-color: var(--mainColor);
-    min-height: 900px;
+    min-height: 100px;
     font-family: 'ubuntu', sans-serif;
 }
 
@@ -32,8 +32,8 @@ section h2{
 }
 #hero{
     color: #ffffff;
-    min-height: 100vh;
     padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 #hero h2{
@@ -46,7 +46,7 @@ section h2{
 }
 /* cta */
 .btn-custom1{
-    background-color: var(--acsentColor);
+    background-color: var(--acsentColor) !important;
     text-align: center;
     color: #ffffff;
     min-width: 150px;
@@ -55,7 +55,7 @@ section h2{
     font-size: 1.2rem;
 }
 .btn-custom1:hover{
-    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+    box-shadow: 0 0 10px rgba(255, 166, 0, .8);
 }
 /* end section hero */
 
@@ -81,15 +81,13 @@ hr{
 
 /* skill */
 #skill{
-    min-height: 600px;
+    min-height: 500px;
     width: 100%;
     color: #ffffff;
 }
 #skill img{
     width: 12% ;
-    padding-bottom: auto;
 }
-
 /* end skill */
 
 /* sertif */
@@ -99,15 +97,133 @@ hr{
 
 }
 #sertifikat img{
-    width: 33%;
-    padding: 10px;
+    width: 30%;
+    padding: 9px;
 }
 /* end sertifikat */
 
 /* portofolio */
-#portofolio{
-    background-color: var(--mainColor);
+#portofolio {
+  background-color: var(--mainColor);
+  padding: 50px 0;
+  text-align: center;
 }
+
+.background-color1 {
+  background-color: #333646;
+  border: 5px solid #ffffff;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow-container1 {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+  z-index: 1;
+}
+
+.mySlides img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;  /* Memastikan gambar mengisi area yang disediakan */
+  display: block; /* Mengatur gambar agar tampil dengan baik */
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 50%;
+  user-select: none;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dots-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active, .dot:hover {
+  background-color: #ff7300;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+/* web */
+.web {
+  display: flex;
+  justify-content: space-evenly; /* Agar web1 dan web2 berada di kiri-kanan */
+  margin: 50px auto 0; 
+  max-width: 990px;
+}
+
+#web1, #web2 {
+  width: 50%; /* Lebar masing-masing div hampir setengah dari lebar container */
+  position: ce;
+}
+
+.box1, .box2 {
+  transition: transform 0.3s ease;
+}
+
+.box1:hover, .box2:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.web p{
+  color: #ffffff;
+}
+
+/* end web */
 
 /* end portofolio */
 
