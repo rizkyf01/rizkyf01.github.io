@@ -46,6 +46,9 @@
     <section id="hero">
         <div class="container">
             <div class="row">
+                <div class="col-lg-5 col-md-6 order-md-2">
+                    <img src="img/Rizky__1_-removebg-preview.png" width="100%" class="float-lg-end mx-auto d-block" alt="">
+                </div>
                 <div class="col-lg-5 col-md-6 offset-lg-1 my-auto order-1 text-center text-lg-start">
                     <h2>Hello<br>I am Muhammad Rizky Firdaus</h2>         
                     <p>Graphic designer || Web developer || Translator <br>
@@ -54,9 +57,6 @@
                     <button class="btn btn-custom1" onclick="window.location.href='https://github.com/rizkyf01#rizkyf01';">
                         Let’s start
                       </button>                                        
-                </div>
-                <div class="col-lg-5 col-md-6 order-md-2">
-                    <img src="img/Rizky__1_-removebg-preview.png" width="100%" class="float-lg-end mx-auto d-block" alt="">
                 </div>
             </div>
         </div>
@@ -76,8 +76,8 @@
                 <p class="text-center color-acsent">Saya adalah pribadi yang berani, bertanggung jawab, dan rajin</p>
                 <p class="text-center">
                     Saya, Muhammad Rizky Firdaus lahir di Bekasi pada 1 Januari 2003. <br>
-                    Saya menyelesaikan pendidikan di SMKN 02 Bekasi dengan jurusan Rekayasa Perangkat Lunak. Setelah itu, <br>
-                    saya melanjutkan studi di Universitas Darma Persada dan meraih gelar Sarjana di bidang Bahasa dan Kebudayaan Jepang. <br>
+                    menyelesaikan pendidikan di SMKN 02 Bekasi dengan jurusan Rekayasa Perangkat Lunak. Setelah itu, <br>
+                    melanjutkan studi di Universitas Darma Persada dan meraih gelar Sarjana di bidang Bahasa dan Kebudayaan Jepang. <br>
                     Saya memiliki beberapa skill di bidang graphic design, frontend web design, public speaking, dan berbahasa jepang. <br>
                     Cek detail saya di bawah
                 </p>
@@ -100,8 +100,8 @@
             </div>
 
             <div class="col-lg-10 col-md-12 text-center pt-3" >
-            <img src="img/js.png" alt="">
             <img src="img/html.png" alt="">
+            <img src="img/js.png" alt="">
             <img src="img/css.png" alt="">
             <br>
             <br>
@@ -137,24 +137,77 @@
      <!-- end sertif-->
 
     <!-- portofolio -->
-    <section id="portofolio">
-        <div class="container-fluid">
-        　<div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h2 class="fw-bold text-center">PORTOFOLIO</h2>
-                    <hr>
-                </div>
+    <section id="portofolio"> 
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h2 class="fw-bold text-center">PORTOFOLIO</h2>
+              <hr>
             </div>
-             <div>
-
-                
-             </div>
+          </div>
+          <div class="background-color1">
+            <div class="slideshow-container1">
+              <div class="mySlides fade">
+                <img src="img/desain1.jpg" alt="Desain 1">
+                <div class="text">OZORA PUBLISHING INTERNSHIP <br>
+                  created date : 2024 </div>
+              </div>
+              <div class="mySlides fade">
+                <img src="img/desain2.jpg" alt="Desain 2">
+                <div class="text">OZORA PUBLISHING INTERNSHIP <br>
+                  created date : 2024 </div>
+              </div>
+              <div class="mySlides fade">
+                <img src="img/desain3.jpg" alt="Desain 3">
+                <div class="text">OZORA PUBLISHING INTERNSHIP <br>
+                  created date : 2024 </div>
+              </div>
+              <div class="mySlides fade">
+                <img src="img/desain4.jpg" alt="Desain 4">
+                <div class="text">OZORA PUBLISHING INTERNSHIP <br>
+                  created date : 2024 </div>
+              </div>
+              <div class="mySlides fade">
+                <img src="img/desain5.jpg" alt="Desain 5">
+                <div class="text">OZORA PUBLISHING INTERNSHIP <br>
+                  created date : 2024 </div>
+              </div>
+              <a class="prev" onclick="changeSlide(-1)">❮</a>
+              <a class="next" onclick="changeSlide(1)">❯</a>
             </div>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
             </div>
+          </div>
+          <div class="web">
+            <div id="web1">
+              <div class="box1">
+                <a href="https://rizkyf01.github.io/ozora-resto/index.html">
+                  <img src="img/web1.png" alt="Web 1">
+                </a>
+                <p>RESTAURANT WEB DESIGN</p>
+              </div>
+            </div>
+            <div id="web2">
+              <div class="box2">
+                <a href="https://rizkyf01.github.io/ozora-hotel/">
+                  <img src="img/web2.png" alt="Web 2">
+                </a>
+                <p>HOTEL WEB DESIGN</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
+
     <!-- end portofolio -->
+
      <!-- contact -->
      <section id="contact">
         <div class="container-fluid">
@@ -172,7 +225,6 @@
              </div>
             </div>
             </div>
-        </div>
     </section>
       <!-- end contact -->
        <script src="js/script.js"></script>
