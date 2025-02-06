@@ -1,0 +1,118 @@
+:root {
+    --mainColor : #252734 ;
+    --secondaryColor : #333646;
+    --acsentColor : #ff9100;
+}
+
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+/* navbar */
+.nav-link.active{
+    color: var(--acsentColor) !important;
+    font-weight: 800;
+}
+.nav-dark{
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+    transition: 1s;
+}
+/* end navbar */
+
+/* section hero */
+.color-acsent{
+    color: var(--acsentColor);
+}
+#hero{
+    color: #ffffff;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+
+#hero h2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+#hero p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+/* cta */
+.btn-custom1{
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #ffffff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.btn-custom1:hover{
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+/* end section hero */
+
+/* about */
+hr{
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin:0 auto;
+    opacity: 100%;
+}
+
+#about{
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+/* end about */
+
+/* skill */
+#skill{
+    min-height: 600px;
+    width: 100%;
+    color: #ffffff;
+}
+#skill img{
+    width: 12% ;
+    padding-bottom: auto;
+}
+
+/* end skill */
+
+/* sertif */
+#sertifikat{
+  
+    background-color: var(--secondaryColor);
+
+}
+#sertifikat img{
+    width: 33%;
+    padding: 10px;
+}
+/* end sertifikat */
+
+/* portofolio */
+#portofolio{
+    background-color: var(--mainColor);
+}
+
+/* end portofolio */
+
+/* Contact */
+#contact{
+    background-color: var(--secondaryColor);
+}
+/* end Contact */
