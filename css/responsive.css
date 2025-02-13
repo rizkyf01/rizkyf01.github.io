@@ -1,0 +1,45 @@
+@media screen and (max-width:1200px){
+    #hero p{
+        font-size: .9rem;
+    }
+    #hero h2 {
+        font-size: 2.3rem;
+    }
+}
+
+    @media screen and (max-width: 768px){
+        #hero img {
+            width: 80%;
+        }
+        .btn-custom1{
+            width: 80%;
+        }
+        .web {
+            flex-direction: column; /* Mengubah tata letak menjadi vertikal */
+            align-items: center; /* Pusatkan elemen */
+        }
+    
+        #web1, #web2 {
+            width: 90%; /* Atur agar lebih kecil untuk tampilan mobile */
+            text-align: center;
+            margin-bottom: 20px; /* Beri jarak antara elemen */
+        }
+    
+        .web img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+    
+      .web p {
+        font-size: 14px; /* Mengurangi ukuran font penjelasan untuk layar kecil */
+        }
+}
+
+@media screen and (max-width: 576px){
+   
+}
+
+@media screen and (max-width: 350px){
+
+}
